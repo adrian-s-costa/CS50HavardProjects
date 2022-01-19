@@ -1,7 +1,7 @@
 # CS50HavardProjects
 Project 0: Search
+
 Proposition of the project:
-Search
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
 Background----
