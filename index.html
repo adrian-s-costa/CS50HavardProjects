@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body>
+        <div id="box">
+        <a href="imageSearch.html" class="dir">Image Search</a>
+        <a href="advancedSearch.html" class="dir">Advanced Search</a>
+        </div>
+        
+        <div class="barra">
+            <h1 id="gsearch">Google</h1>
+            <form action="https://google.com/search">
+                <input type="text" name="q" class="field" type="text" id="toma"  onmouseenter="entrar()" onmouseout="sair()">  <br>
+                <input type="submit" value="Google Search" name="btnK" class="botao" id="botao">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI" class="botao" id="botao" >
+            </form>
+        </div>
+        <script>
+            let a = window.document.getElementById("toma")
+            function entrar(){
+
+                a.style.background = "#303134"
+                a.style.border = "none"
+                a.style.boxShadow = "2px"
+
+            }
+            function sair(){
+
+                a.style.background="#202124"
+                a.style.border = "solid"
+                a.style.boxShadow = "none"
+                a.style.borderWidth = "1px"
+                
+            }
+            
+            
+
+        </script>
+    </body>
+</html>

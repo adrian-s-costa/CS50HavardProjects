@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body>
+        <div id="box">
+        <a href="index.html" class="logo">Google</a>
+        <a href="index.html" class="dir">Google Search</a>
+        <a href="imageSearch.html" class="dir">Image Search</a>
+        </div>
+        
+        <div class="barra2">
+            <h1 id="adsearch"> Advanced Search </h1>
+            <hr size="1">
+            <form action="https://google.com/search">
+    
+                <div class="frases">
+                <div class="leti"><a id="fri">Find pages with...</a><br></div>
+                <div class="let"><a id="fr"> all these words: </a> <input type="text" name="as_q" class="field1" id="a"><br></div>
+                <div class="let"><a id="fr">this exact word or phrase: </a> <input type="text" name="as_epq" class="field1" id="b"> <br></div>
+                <div class="let"><a id="fr">any of these words: </a> <input type="text" name="as_oq" class="field1" id="c"> <br></div>
+                <div class="let"><a id="fr">none of these words: </a> <input type="text" name="as_eq" class="field1" id="d"> <br></div>
+                </div>
+                
+                <input type="submit" value= "Advanced search" class="botao2">
+               
+                <hr size="1">
+
+            </form>
+        </div>
+        <script>
+            let a = window.document.getElementById("toma")
+            function entrar(){
+
+                a.style.background = "#303134"
+                a.style.border = "none"
+                a.style.boxShadow = "2px"
+
+            }
+            function sair(){
+                a.style.background="#202124"
+                a.style.border = "solid"
+                a.style.boxShadow = "none"
+                a.style.borderWidth = "1px"
+                
+            }
+
+
+        </script>
+    </body>
+</html>

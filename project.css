@@ -1,0 +1,180 @@
+html{
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#gsearch{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 10px;
+
+}
+
+h1#adsearch{
+    color:#f28b82;
+    font-size: 18px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+h1#images{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+div.barra{
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+input.botao{
+
+    border-style: none;
+    margin-left: 10px;
+    color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #303134;
+
+}
+
+input.field{
+
+    padding-left: 10px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    width: 600px;
+    border-radius: 80px;
+    background-color: #202124;
+    border-color: beige;
+}
+
+div#box{
+
+    text-align: right;    
+
+}
+div#box > a.logo{
+
+    float: left; 
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+
+
+}
+a.dir{
+    padding: 6px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+
+}
+
+a.dir:hover{
+    text-decoration: underline;
+}
+
+input.botao:hover{
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+}
+
+div.barra2{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    
+}
+
+input.field1{
+    
+    background-color: #202124 ;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 12px;
+    width: 500px;
+    height: 25px;
+    color: white;
+}
+
+hr{
+    
+    border-color:#98a2aa;
+    
+
+}
+
+
+
+div.forms{
+    float: left;
+    margin-left: 100px;
+}
+
+
+
+div.frases{
+    margin-top: 10px;
+    
+}
+
+div.let{
+    
+    font-size: 12px;
+    margin-left: 30px;
+    color: #bdc1c6;
+}
+
+div.leti{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+}
+
+input#a{
+    margin-left: 54px;
+
+}
+
+input#c{
+    margin-left: 33px;
+}
+
+input#d{
+    margin-left: 26px;
+}
+
+input.botao2{
+
+    border-style: none;
+    margin-left: 10px;
+    color: white;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #8ab4f8;
+    margin-bottom: 20px;
+    margin-left: 650px;
+
+}
+
+input.botao2:hover{
+
+    background-color: #aecbfa;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+}
